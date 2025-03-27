@@ -233,44 +233,7 @@ The microservice exposes the following REST API endpoints:
       "result": 1
   }
   ```
-
----
-
-## Error Handling
-
-The microservice includes robust error handling to ensure meaningful responses are returned in case of invalid inputs or unsupported operations:
-
-1. **Invalid Input**:
-   - If `num1` or `num2` is not a valid number, the microservice returns:
-     ```json
-     {
-         "error": "Invalid input. Both num1 and num2 must be numbers."
-     }
-     ```
-
-2. **Division by Zero**:
-   - If `num2` is `0` in a division operation, the microservice returns:
-     ```json
-     {
-         "error": "Division by zero is not allowed."
-     }
-     ```
-
-3. **Negative Numbers for Square Root**:
-   - If `num1` is negative in a square root operation, the microservice returns:
-     ```json
-     {
-         "error": "Square root of a negative number is not supported."
-     }
-     ```
-
-4. **Modulo by Zero**:
-   - If `num2` is `0` in a modulo operation, the microservice returns:
-     ```json
-     {
-         "error": "Modulo by zero is not allowed."
-     }
-     ```
+  ```
 
 ---
 
