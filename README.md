@@ -17,11 +17,10 @@ This repository contains the implementation of a **calculator microservice** bui
 3. [Prerequisites](#prerequisites)
 4. [Setup Instructions](#setup-instructions)
 5. [API Endpoints](#api-endpoints)
-6. [Error Handling](#error-handling)
-7. [Testing the Microservice](#testing-the-microservice)
-8. [Deployment](#deployment)
-9. [Contributing](#contributing)
-10. [License](#license)
+6. [Testing the Microservice](#testing-the-microservice)
+7. [Deployment](#deployment)
+8. [Contributing](#contributing)
+9. [License](#license)
 
 ---
 
