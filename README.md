@@ -19,9 +19,9 @@ This documentation provides a detailed step-by-step guide for building a **Calcu
 
 ## **1. Project Setup**  
 ### **Prerequisites**  
-- Node.js (v14 or later)  
+- Node.js
 - npm (Node Package Manager)  
-- A code editor (VS Code recommended)  
+- A code editor (VS Code)  
 
 ### **Steps**  
 1. **Initialize a Node.js Project**  
@@ -292,17 +292,8 @@ curl "http://localhost:3000/divide?num1=5&num2=0"
 This microservice successfully:  
 ✔ Provides a **RESTful API** for basic arithmetic operations.  
 ✔ Includes **input validation and error handling**.  
-✔ Can be **easily extended** with more features (e.g., exponentiation, logarithms).  
-
-**Next Steps:**  
-- Add **authentication** (JWT/OAuth).  
-- Implement **rate limiting** (to prevent abuse).  
-- Add **logging** (for debugging).  
-- Containerize using **Docker**.
 
 ---
 
 ### **Final Code Repository**  
 The complete code is available in the provided `server.js` and `package.json`.
-
-🚀 **Happy Coding!** 🚀
