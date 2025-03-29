@@ -1,4 +1,4 @@
-# **Enhanced Calculator Microservice**  
+# **Calculator Microservice**  
 
 A **Node.js + Express** microservice that provides basic and advanced arithmetic operations via a REST API.  
 
